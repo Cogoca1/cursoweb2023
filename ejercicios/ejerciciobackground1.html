@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background</title>
+    <style>
+        body {
+            background-image: url(EjercicioBackground/background_body.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        div {
+            border: 2px dotted white;
+            width: 1110px;
+            height: 30%;
+            background-color: transparent;
+            padding: 25px;
+        }
+
+        main {
+            width: 70%;
+            margin-left: 200px;
+            background-position: center;
+        }
+
+        .a {
+
+            background-color: black;
+            padding-top: 10px;
+            padding-left: 10px;
+            margin: 0 auto;
+            color: yellow;
+            height: 40px;
+            background-origin: padding-box;
+
+
+        }
+
+        .b {
+            background-color: orange;
+            border: 2px dotted white;
+            text-align: left;
+            color: yellow;
+            height: 40px;
+            background-origin: content-box;
+            padding-top: 10px;
+            padding-left: 10px;
+        }
+
+        .c {
+            background-color: black;
+            border: 2px dotted white;
+            text-align: left;
+            color: yellow;
+            height: 40px;
+            background-origin: border-box;
+            padding-top: 10px;
+            padding-left: 10px;
+        }
+
+        .d {
+            padding-top: 15px;
+            height: 250px;
+            text-align: center;
+            background-color: green;
+            background-image:url("EjercicioBackground/hormiga.png"), url("EjercicioBackground/tapiz-hierba.jpg"); 
+            background-repeat: no-repeat;
+            background-size: 600px 600px;
+            background-position: center center;
+            color: white;
+        }
+
+        .e {
+            height: 400px;
+            background-image: url(EjercicioBackground/pavo.png);
+            text-align: right;
+            border: 2px solid black;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center center;
+            padding-right: 10px;padding-top: 10px;
+
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+
+    <main>
+        <div>
+            <p class="a">Identificador: div1</p>
+        </div>
+        <p class="b">Identificador: div2</p>
+        <p class="c">Identificador: div3</p>
+        <p class="d">Identificador: div4</p>
+        <p class="e">Identificador: div5</p>
+    </main>
+
+</body>
+
+</html>
